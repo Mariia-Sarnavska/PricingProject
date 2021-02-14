@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pricing Table</title>
+	<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script src="https://kit.fontawesome.com/4df70f4a63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="main_bg">
+		<div class="wrapper">
+			<div class="main_content">
+				<div class="logo_inf">
+					<img src="img/logo.png" alt="logo" class="logo">
+					<h3 class="logo_name">MISOCIAL</h3>
+				</div>
+				<a href="#" class="m-menu-link">
+					<i class="fa fa-bars"></i>
+				</a>
+				<ul class="m-menu">
+					<li class="close-menu">&times;</li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Why MISOCIAL</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Pricing</a></li>
+					<button>get started</button>
+				</ul>
+				<ul class="main_menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Why MISOCIAL</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Pricing</a></li>
+					<button>get started</button>
+				</ul>
+			</div>
+			<div class="main_text">
+				<div class="text_inf">
+					<h5><span class="text_line"></span>SOCIAL MARKETING & ANALYTICS<span class="text_line"></span></h5>
+					<h1>Pricing Table</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+				</div>
+				<div class="text_arrow">
+					<a href=""><i class="fas fa-arrow-down"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="pricing">
+		<div class="pricing_container">
+			<div class="pricing_inf">
+				<h5><span class="text_line"></span>MIsocial<span class="text_line"></span></h5>
+				<h2>Select a Plan</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+			</div>
+			<div class="pricing_cards">
+				<div class="cards">
+					<img src="img/card1.png" alt="card1_img" class="card_icon">
+					<h5>personal</h5>
+					<h2><sup>$</sup>0<sub>/month</sub></h2>
+					<p>Lorem ipsum dolor sit amet. sed do eiusmod tempor incididunt ut. <br> Labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris.<br> Ea commodo consequat.</p>
+					<button>select plan</button>
+				</div>
+				<div class="cards">
+					<img src="img/card2.png" alt="card2_img" class="card_icon">
+					<h5>personal</h5>
+					<h2><sup>$</sup>29<sub>/month</sub></h2>
+					<p>Lorem ipsum dolor sit amet. sed do eiusmod tempor incididunt ut. <br> Labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris.<br> Ea commodo consequat.</p>
+					<button>select plan</button>
+				</div>
+				<div class="cards">
+					<img src="img/card3.png" alt="card3_img" class="card_icon">
+					<h5>personal</h5>
+					<h2><sup>$</sup>49<sub>/month</sub></h2>
+					<p>Lorem ipsum dolor sit amet. sed do eiusmod tempor incididunt ut. <br> Labore et dolore magna aliqua. quis nostrud exercitation ullamco laboris.<br> Ea commodo consequat.</p>
+					<button>select plan</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cta">
+		<div class="cta_container">
+			<div class="cta_inf">
+				<h5>SOCAL MARKETING & ANALYTICS</h5>
+				<h2>Take control of your data</h2>
+				<button>get started</button>
+				<button>explore features</button>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="footer_content">
+				<div class="logo_inf">
+					<img src="img/logo.png" alt="logo" class="logo">
+					<h3 class="logo_name">MISOCIAL</h3>
+				</div>
+				<ul class="main_menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Why MISOCIAL</a></li>
+					<li><a href="#">Features</a></li>
+					<li><a href="#">Articles</a></li>
+					<li><a href="#">Pricing</a></li>
+					<button>get started</button>
+				</ul>
+			</div>
+			<div class="footer_rights">
+				<p>© 2017 Mass Impressions & Tranmautritam. Make the right impress</p>
+				<div class="rights_icons">
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-google-plus-g"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script>
+	$ (function(){
+		var link = $(".m-menu-link");
+		var menu = $(".m-menu");
+		var close = $(".close-menu");
+		link.click(function(){
+			menu.addClass("m-menu_active");
+		});
+		close.click(function(){
+			menu.removeClass("m-menu_active");
+		})
+	});
+</script>
+</body>
+</html>
